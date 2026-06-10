@@ -5,7 +5,7 @@ I am focusing on lower-level systems programming with a specific interest in the
 ### 🚀 Featured Project: Concurrency & IPC Performance Benchmark
 * **Code Location**: [hl_projs/my_timer](https://github.com/dwhitting/c-practice/tree/main/hl_projs/my_timer)
 * **The Tool**: Built a custom benchmarking timer (`my_timer_t`) in C to precisely measure CPU execution time of isolated code segments down to the millisecond. (Could go to nanosecond if needed)
-* **Core Experiment**: Evaluated the overhead of different Inter-Process Communication (IPC) strategies by summing a massive dynamically allocated 2D array (**10,000 x 10,000 integers**) across multiple architectures.
+* **Core Experiment**: Evaluated the overhead of different Inter-Process Communication (IPC) strategies by summing a dynamically allocated 2D array (**10,000 x 10,000 integers**) across multiple architectures.
 
 #### 📊 Performance Results:
 * **Baseline (Single Process):** Sequential execution on a single core.
