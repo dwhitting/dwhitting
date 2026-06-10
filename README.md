@@ -3,7 +3,7 @@
 I am focusing on lower-level programming with an interest in the OMSCS computing systems track.
 
 Featured Projects:
-  1. **Location**: hl_projs/my_timer
+  1. **Location**: [hl_projs/my_timer](https://github.com/dwhitting/c-practice/tree/main/hl_projs/my_timer)
     - **Aside**:This project has a custom timer I made to measure how long processes (or portions of them) take
       to execute. (The my_timer_t type in the my_timer files has and explains this.)
     - **Main Point of Project**: To measure the time it takes to sum a large dynamic memory array
