@@ -12,3 +12,6 @@ I am focusing on lower-level systems programming with a specific interest in the
 * **Multi-Process via Disk (`mkstemp()`):** Work divided between a parent and child process and synchronized using a mkstemp() file with locks (`flock`). **Result: ~10ms faster than baseline.** (Multi-core parallel processing power successfully outran the Single Process, even with the physical disk I/O overhead).
 * **Multi-Process via Kernel Pipeline (`pipe()`):** Work divided across parent and child, but data is passed back in RAM via a kernel pipe buffer. **Result: ~30ms faster than baseline / ~20ms faster than disk.** **Key Takeaways:** This project demonstrates the power of parallel processing via `fork()`, the efficiency of Linux Copy-on-Write (COW) memory management, and the large performance advantage of memory-space IPC over traditional file-system storage.
 * **Multi-Thread (`10x threads'):** Now added file that divides work among 10x threads.  That halved the time of the Mulit-Process via Kernal Pipline.
+
+### Featured Project: Multi-thread Proxy Server
+* **Code Location**: [hl_projs/proxy_server](https://github.com/dwhitting/c-practice/tree/7a11c11dc1619835040ce4c2f5aeb760a20c3e1b/hl_projs/proxy_server)
