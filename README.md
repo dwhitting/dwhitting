@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hello 👋
 
 I am focusing on lower-level systems programming with a specific interest in the Georgia Tech OMSCS Computing Systems track.
 
